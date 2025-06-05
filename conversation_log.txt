@@ -1,0 +1,114 @@
+
+SECTION 1 - PROMPT 1:
+My prompt: 
+"I need to make a basic CLI program in Python that lets a user manage tasks. The user should be able to add new tasks, view all tasks, and delete a task. The tasks are stored in memory. Please give me beginner-friendly pseudocode using only basic Python features like lists, dictionaries, functions, and input/output."
+
+AI RESPONSE:
+Provided pseudocode that breaks the program into structured steps: task list storage, add/list/delete functions, and a while-loop menu.
+
+COURSE CONSTRAINT CHECK:
+Aligned with Week 2 planning methodology and Week 4 menu design principles.
+
+---
+
+SECTION 1 - PROMPT 2 (REFINEMENT 1):
+My prompt: 
+"Please improve the pseudocode by applying better input handling and menu logic. Specifically:
+- Use a function to validate that user choices are integers and within valid options
+- Include loop validation and error messages"
+
+AI RESPONSE:
+AI added get_valid_choice() with try/except, menu re-prompting, and loop validation for safe input.
+
+COURSE CONSTRAINT CHECK:
+Follows Week 6 input validation and defensive programming concepts.
+
+---
+
+SECTION 1 - PROMPT 3 (REFINEMENT 2):
+My prompt: 
+"Now improve the pseudocode to allow the user to confirm before deleting a task. Also, make sure they can view all tasks before choosing which to delete."
+
+AI RESPONSE:
+Updated remove_task() to display task list first and prompt for deletion confirmation.
+
+COURSE CONSTRAINT CHECK:
+Demonstrates user-centric design from Week 4 (Menu Interface) and Week 6 validation.
+
+---
+
+SECTION 2 - PROMPT 1:
+My prompt: 
+"Here is some broken code for a simple task manager. Can you help me identify all the bugs a beginner would likely make? Focus on variable names, logic flow, and simple errors."
+
+AI RESPONSE:
+Spotted:
+- Typo tas instead of tasks
+- Wrong variable task in loop
+- Undefined function list_task()
+
+COURSE CONSTRAINT CHECK:
+Used Week 6 debugging workflow before and after AI involvement.
+
+---
+
+SECTION 2 - PROMPT 2:
+My prompt: 
+"Please provide the corrected version of this task manager code using only basic Python features suitable for our course. Add doctest and comments explaining the fixes."
+
+AI RESPONSE:
+Returned corrected script with renamed variables, fixed function calls, and added doctests.
+
+COURSE CONSTRAINT CHECK:
+Aligned with Week 6 error handling, Week 9 doctest usage, and Week 4 user interface basics.
+
+---
+
+SECTION 3 - PROMPT 1:
+My prompt: 
+"This weather-fetching function works, but I want to improve it using basic error handling. What issues do you see in it, assuming beginner-level skills only?"
+
+AI RESPONSE:
+Identified:
+- No input check
+- No handling for bad API responses
+- No feedback to user on errors
+
+COURSE CONSTRAINT CHECK:
+Mapped to Week 6 defensive programming and Week 8 exception handling.
+
+---
+
+SECTION 3 - PROMPT 2:
+My prompt: 
+"Now create a refined version of this weather function using only Week 8 style error handling. No specific exception types. Include doctests."
+
+AI RESPONSE:
+Produced a version with input validation, a basic try/except, and printed error messages for empty input or failed API calls.
+
+COURSE CONSTRAINT CHECK:
+Validated against Week 8 scope and Week 9 doctest requirements.
+
+---
+
+SECTION 4 - Manual Code Implementation:
+My prompt: 
+"I want to manually implement my task manager using basic list-based storage and menu logic, just like we practiced. Let’s build functions step by step."
+
+AI RESPONSE:
+Reviewed structure for display_menu(), get_user_choice(), and main program loop.
+
+COURSE CONSTRAINT CHECK:
+Functions were built using Week 4 menu handling, Week 6 input checks, and all included Week 9 doctests.
+
+---
+
+SECTION 4 - Reflection Support Prompts:
+My prompt: 
+"Can you help me write the 3 reflection answers? I used AI for syntax and refining, but designed everything myself."
+
+AI RESPONSE:
+Provided structured drafts using correct word counts, aligned with course terms like “iterative refinement,” “error handling mindset,” “defensive programming,” and “AI partnership model.”
+
+COURSE CONSTRAINT CHECK:
+All responses referenced authentic experience and materials like Week 2, 6, 8, and 9.
