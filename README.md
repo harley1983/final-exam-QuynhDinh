@@ -1,7 +1,7 @@
 # final-exam-QuynhDinh
 # Final Exam - AI-Assisted Python Programming
 
-This repository contains my completed submission for the **AI-Assisted Python Programming Final Exam** (ISYS2001). The exam was completed using Google Colab and GitHub, following all course constraints and academic integrity guidelines.
+This repository contains my completed submission for the **Introduction to Business Programming Final Exam** (ISYS2001). The exam was completed using Google Colab and GitHub, following all course constraints and academic integrity guidelines.
 
 ---
 
