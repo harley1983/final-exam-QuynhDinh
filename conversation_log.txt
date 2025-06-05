@@ -7,7 +7,7 @@ AI RESPONSE:
 Provided pseudocode that breaks the program into structured steps: task list storage, add/list/delete functions, and a while-loop menu.
 
 COURSE CONSTRAINT CHECK:
-Aligned with Week 2 planning methodology and Week 4 menu design principles.
+Aligned with Week 2 planning methodology and Week 3 menu design principles.
 
 ---
 
@@ -33,7 +33,7 @@ AI RESPONSE:
 Updated remove_task() to display task list first and prompt for deletion confirmation.
 
 COURSE CONSTRAINT CHECK:
-Demonstrates user-centric design from Week 4 (Menu Interface) and Week 6 validation.
+Demonstrates user-centric design from Week 3 (Menu Interface) and Week 6 validation.
 
 ---
 
@@ -86,8 +86,7 @@ My prompt:
 AI RESPONSE:
 Produced a version with input validation, a basic try/except, and printed error messages for empty input or failed API calls.
 
-COURSE CONSTRAINT CHECK:
-Validated against Week 8 scope and Week 9 doctest requirements.
+
 
 ---
 
@@ -99,7 +98,7 @@ AI RESPONSE:
 Reviewed structure for display_menu(), get_user_choice(), and main program loop.
 
 COURSE CONSTRAINT CHECK:
-Functions were built using Week 4 menu handling, Week 6 input checks, and all included Week 9 doctests.
+Functions were built using Week 4 menu handling and Week 6 input checks.
 
 ---
 
