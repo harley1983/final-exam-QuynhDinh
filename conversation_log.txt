@@ -54,7 +54,7 @@ Used Week 6 debugging workflow before and after AI involvement.
 
 SECTION 2 - PROMPT 2:
 My prompt: 
-"Please provide the corrected version of this task manager code using only basic Python features suitable for our course. Add doctest and comments explaining the fixes."
+"Please provide the corrected version of this task manager code. Add doctest and comments explaining the fixes."
 
 AI RESPONSE:
 Returned corrected script with renamed variables, fixed function calls, and added doctests.
@@ -81,7 +81,7 @@ Mapped to Week 6 defensive programming and Week 8 exception handling.
 
 SECTION 3 - PROMPT 2:
 My prompt: 
-"Now create a refined version of this weather function using only Week 8 style error handling. No specific exception types. Include doctests."
+"Now create a refined version of this weather function using only error handling. No specific exception types. Include doctests."
 
 AI RESPONSE:
 Produced a version with input validation, a basic try/except, and printed error messages for empty input or failed API calls.
