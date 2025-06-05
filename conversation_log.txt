@@ -1,0 +1,97 @@
+
+SECTION 1 - PROMPT 1:
+My prompt: I need to make a basic CLI program in Python that lets a user manage tasks. The user should be able to add new tasks, view all tasks, and delete a task. The tasks are stored in memory. Please give me beginner-friendly pseudocode using only basic Python features like lists, dictionaries, functions, and input/output.
+
+AI RESPONSE:
+The AI provided pseudocode with basic task management functions (add, list, delete), using lists and simple input/output. The menu loop was implemented using while and if/elif.
+
+COURSE CONSTRAINT CHECK:
+I confirmed this matches Week 2 and Week 5 approaches: using lists, loops, and conditionals.
+
+---
+
+SECTION 1 - PROMPT 2 (REFINEMENT 1):
+My prompt: Please improve the pseudocode by applying better input handling and menu logic. Specifically, add a function to validate that user choices are integers and within valid options. Include loop validation and error messages.
+
+AI RESPONSE:
+AI updated the pseudocode to include a get_valid_choice() function using try/except for input conversion and checks for valid range.
+
+COURSE CONSTRAINT CHECK:
+This refinement applied Week 6’s input validation and error-handling techniques using try/except blocks.
+
+---
+
+SECTION 1 - PROMPT 3 (REFINEMENT 2):
+My prompt: Can you update the pseudocode to include a confirmation prompt before deleting a task and allow users to view tasks before choosing which to delete?
+
+AI RESPONSE:
+AI added a confirmation step to the delete function and made sure the list is displayed before deletion. Also handled empty task lists.
+
+COURSE CONSTRAINT CHECK:
+This improvement used defensive programming and menu design patterns from Week 6.
+
+---
+
+SECTION 2 - PROMPT 1:
+My prompt: Please identify the errors in this broken task manager code. Focus on beginner mistakes like variable names and function calls.
+
+AI RESPONSE:
+AI listed three key errors:
+- typo tas instead of tasks
+- wrong variable name task in list display
+- incorrect function name list_task() at end
+
+COURSE CONSTRAINT CHECK:
+I used Week 1 and Week 6 debugging strategies to scan code before asking AI. I validated their findings manually.
+
+---
+
+SECTION 2 - PROMPT 2:
+My prompt: Please rewrite the buggy task manager code using only techniques from our course. Include comments and doctests.
+
+AI RESPONSE:
+AI rewrote the code with correct variable names, added doctests for all functions, and made sure it followed Week 6 conventions.
+
+COURSE CONSTRAINT CHECK:
+I revised the AI code slightly to avoid any advanced error handling and made sure all test examples used # doctest: +SKIP when needed.
+
+---
+
+SECTION 3 - PROMPT 1:
+My prompt: Please review this weather-fetching function and identify any issues using only Week 6–8 error handling techniques.
+
+AI RESPONSE:
+AI identified problems: no city name validation, no error messages for bad connections, and no checks for response structure.
+
+COURSE CONSTRAINT CHECK:
+This matched my manual review. I used Week 8’s "basic exception handling" and "input validation" mindset.
+
+---
+
+SECTION 3 - PROMPT 2:
+My prompt: Please rewrite the weather-fetching function with only basic error handling and validation, matching Week 8 constraints. Include doctests.
+
+AI RESPONSE:
+AI produced a version using a simple if-statement to check city, basic try/except block for API request, and handled missing keys.
+
+COURSE CONSTRAINT CHECK:
+I confirmed there was no advanced exception type used, and doctests were properly aligned with Week 9 format.
+
+---
+
+SECTION 4 - PROMPT 1:
+My prompt: I want to implement my task manager manually using only Week 4–6 logic. Help me with the basic structure.
+
+AI RESPONSE:
+AI reminded me of the standard format using display_menu(), get_user_choice(), and main() loop with while True.
+
+COURSE CONSTRAINT CHECK:
+I used only basic input/output, loops, and list operations. Each function includes doctests and inline comments referencing the appropriate weeks.
+
+---
+
+SECTION 4 - REFLECTION:
+My reflection included:
+- How I used **Week 6: Input Validation** and **Week 8: Error Handling**
+- How I improved from **Assignment 2 feedback** by planning structure first
+- My future goal to ask more focused AI prompts and improve doctest use
