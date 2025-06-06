@@ -30,7 +30,7 @@ This assessment focused on developing Python programs using basic programming co
 - **Week 4:** Menu Design & User Input (print/input functions)
 - **Week 6:** Input Validation & Defensive Programming
 - **Week 8:** Basic Error Handling using try/except
-- **Week 9:** Doctest for validating function behavior
+
 
 ---
 
